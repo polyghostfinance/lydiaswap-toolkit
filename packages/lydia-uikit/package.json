@@ -1,6 +1,6 @@
 {
-  "name": "@lydiaswap/uikit",
-  "version": "0.7.8",
+  "name": "@lydiafinance/uikit",
+  "version": "1.0.1",
   "description": "Set of UI components for lydia projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lydiafinance/lydiaswap-toolkit/tree/master/packages/lydia-uikit"
+    "url": "https://github.com/lydiafinance/lydiafinance-toolkit/tree/master/packages/lydia-uikit"
   },
   "license": "MIT",
   "scripts": {
