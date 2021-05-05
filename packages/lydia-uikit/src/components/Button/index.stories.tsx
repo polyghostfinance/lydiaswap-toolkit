@@ -68,7 +68,7 @@ export const Anchors: React.FC = () => {
                 return (
                   <Button
                     as="a"
-                    href="https://lydiaswap.finance"
+                    href="https://lydiafinance.finance"
                     key={scale}
                     variant={variant}
                     scale={scale}
@@ -84,10 +84,10 @@ export const Anchors: React.FC = () => {
         })}
       </Box>
       <Box>
-        <Button as="a" href="https://lydiaswap.finance" mr="8px" external disabled>
+        <Button as="a" href="https://lydiafinance.finance" mr="8px" external disabled>
           Disabled
         </Button>
-        <Button as="a" href="https://lydiaswap.finance" variant="secondary" external disabled>
+        <Button as="a" href="https://lydiafinance.finance" variant="secondary" external disabled>
           Disabled
         </Button>
       </Box>

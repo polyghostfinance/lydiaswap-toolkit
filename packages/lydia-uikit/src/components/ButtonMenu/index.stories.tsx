@@ -68,13 +68,13 @@ export const AsLinks: React.FC = () => {
   return (
     <Row>
       <ButtonMenu activeIndex={0}>
-        <ButtonMenuItem as="a" href="https://lydia.finance">
+        <ButtonMenuItem as="a" href="https://lydiafinance.finance">
           Link 1
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://lydia.finance">
+        <ButtonMenuItem as="a" href="https://lydiafinance.finance">
           Link 2
         </ButtonMenuItem>
-        <ButtonMenuItem as="a" href="https://lydia.finance">
+        <ButtonMenuItem as="a" href="https://lydiafinance.finance">
           Link 3
         </ButtonMenuItem>
       </ButtonMenu>

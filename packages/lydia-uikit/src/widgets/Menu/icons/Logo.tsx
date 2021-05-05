@@ -16,6 +16,7 @@ const Logo: React.FC<LogoProps> = ({ isDark, ...props }) => {
           transform="matrix(1.0 0.0 0.0 1.0 62.0 4.0)"
           x="1.0"
           fontSize="38"
+          fontWeight="600"
           y="36.0"
           fontFamily="ArialRoundedMTBold, Arial Rounded MT Bold"
           textDecoration="none"

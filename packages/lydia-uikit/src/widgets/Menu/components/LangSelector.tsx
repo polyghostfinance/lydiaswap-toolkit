@@ -17,37 +17,26 @@ interface Props {
 }
 
 const LangSelector: React.FC<Props> = ({ currentLang, langs, setLang }) => (
-  <>
-    <a href="https://discord.gg/qHjhz9Mz5b">
-      <Text color="textSubtle">Twitter</Text>
-    </a>
-    <a href="https://discord.gg/qHjhz9Mz5b">
-      <Text color="textSubtle">Telegram</Text>
-    </a>
-    <a href="https://discord.gg/qHjhz9Mz5b">
-      <Text color="textSubtle">Discord</Text>
-    </a>
-  </>
-  // <Dropdown
-  //   position="top-right"
-  //   target={
-  //     <a href="https://discord.gg/qHjhz9Mz5b">
-  //       <Text color="textSubtle">Discord</Text>
-  //     </a>
-  //   }
-  // >
-  //   {/* {langs.map((lang) => (
-  //     <MenuButton
-  //       key={lang.code}
-  //       fullWidth
-  //       onClick={() => setLang(lang)}
-  //       // Safari fix
-  //       style={{ minHeight: "32px", height: "auto" }}
-  //     >
-  //       {lang.language}
-  //     </MenuButton>
-  //   ))} */}
-  // </Dropdown>
+  <Dropdown
+    position="top-right"
+    target={
+      <Button variant="text" startIcon={<LanguageIcon color="textSubtle" width="24px" />}>
+        <Text color="textSubtle">{currentLang?.toUpperCase()}</Text>
+      </Button>
+    }
+  >
+    {langs.map((lang) => (
+      <MenuButton
+        key={lang.code}
+        fullWidth
+        onClick={() => setLang(lang)}
+        // Safari fix
+        style={{ minHeight: "32px", height: "auto" }}
+      >
+        {lang.language}
+      </MenuButton>
+    ))}
+  </Dropdown>
 );
 
 export default React.memo(LangSelector, (prev, next) => prev.currentLang === next.currentLang);

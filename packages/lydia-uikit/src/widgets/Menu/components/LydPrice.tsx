@@ -23,7 +23,10 @@ const PriceLink = styled.a`
 
 const LydPrice: React.FC<Props> = ({ lydPriceUsd }) => {
   return lydPriceUsd ? (
-    <PriceLink href="https://info.lydia.finance/token/0x4C9B4E1AC6F24CdE3660D5E4Ef1eBF77C710C084" target="_blank">
+    <PriceLink
+      href="https://info.lydia.finance/tokens#/token/0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084"
+      target="_blank"
+    >
       <LydiaRoundIcon width="30px" mr="8px" />
       {/* <img
         width={30}

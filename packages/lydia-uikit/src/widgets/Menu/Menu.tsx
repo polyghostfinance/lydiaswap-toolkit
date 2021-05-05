@@ -9,8 +9,8 @@ import Panel from "./components/Panel";
 import UserBlock from "./components/UserBlock";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
-import { Image } from "../../components/Image";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
+
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
@@ -18,7 +18,6 @@ const Wrapper = styled.div`
 
 const StyledNav = styled.nav<{ showMenu: boolean }>`
   position: fixed;
-  height: 80px;
   top: ${({ showMenu }) => (showMenu ? 0 : `-${MENU_HEIGHT}px`)};
   left: 0;
   transition: top 0.2s;
@@ -43,7 +42,7 @@ const BodyWrapper = styled.div`
 const Inner = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   flex-grow: 1;
   margin-top: ${({ showMenu }) => (showMenu ? `${MENU_HEIGHT}px` : 0)};
-  transition: margin-top 0.2s;
+  transition: margin-top 0.2s, margin-left 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transform: translate3d(0, 0, 0);
   max-width: 100%;
 
@@ -60,22 +59,6 @@ const MobileOnlyOverlay = styled(Overlay)`
   ${({ theme }) => theme.mediaQueries.nav} {
     display: none;
   }
-`;
-
-const StyledTitle = styled.div<{ isDark: boolean }>`
-  font-size: 24px;
-  color: ${({ isDark }) => `${isDark ? "#fff" : "#000"}`};
-  margin: 0px 5px;
-  font-weight: 600;
-`;
-const StyledMenuLogo = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-const StyledImageLogo = styled(Image)`
-  width: 75px;
-  min-width: 50px;
 `;
 
 const Menu: React.FC<NavProps> = ({
@@ -133,17 +116,12 @@ const Menu: React.FC<NavProps> = ({
   return (
     <Wrapper>
       <StyledNav showMenu={showMenu}>
-        <StyledMenuLogo>
-          <Logo
-            isPushed={isPushed}
-            togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
-            isDark={isDark}
-            href={homeLink?.href ?? "/"}
-          />
-          <StyledImageLogo src="/images/lyd_logo.png" alt="logo header" width={50} height={50} />
-          <StyledTitle isDark={isDark}>LydiaFinance</StyledTitle>
-        </StyledMenuLogo>
-
+        <Logo
+          isPushed={isPushed}
+          togglePush={() => setIsPushed((prevState: boolean) => !prevState)}
+          isDark={isDark}
+          href={homeLink?.href ?? "/"}
+        />
         <Flex>
           <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />}

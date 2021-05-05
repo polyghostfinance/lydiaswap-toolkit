@@ -1,5 +1,6 @@
 import { AlertTheme } from "../components/Alert/types";
 import { CardTheme } from "../components/Card/types";
+import { LYDToggleTheme } from "../components/LYDToggle/types";
 import { RadioTheme } from "../components/Radio/types";
 import { ToggleTheme } from "../components/Toggle/types";
 import { TooltipTheme } from "../components/Tooltip/types";
@@ -15,6 +16,7 @@ export interface LydiaTheme {
   card: CardTheme;
   nav: NavTheme;
   modal: ModalTheme;
+  lydiaToggle: LYDToggleTheme;
   radio: RadioTheme;
   toggle: ToggleTheme;
   tooltip: TooltipTheme;

@@ -46,38 +46,38 @@ export const links = [
     icon: "PoolIcon",
     href: "/electrum",
   },
+  // {
+  //   label: "Lottery",
+  //   icon: "TicketIcon",
+  //   href: "/lottery",
+  // },
+  // {
+  //   label: "NFT",
+  //   icon: "NftIcon",
+  //   href: "/nft",
+  // },
   {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Team Battle",
-    icon: "TeamBattleIcon",
+    label: "Maximus",
+    icon: "CrownIcon",
     href: "/competition",
     status: status.SOON,
   },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/teams",
-        status: status.NEW,
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
-  },
+  // {
+  //   label: "Profile & Teams",
+  //   icon: "GroupsIcon",
+  //   items: [
+  //     {
+  //       label: "Leaderboard",
+  //       href: "/teams",
+  //       status: status.NEW,
+  //     },
+  //     {
+  //       label: "YourProfile",
+  //       href: "/",
+  //     },
+  //   ],
+  //   calloutClass: "rainbow",
+  // },
   {
     label: "Info",
     icon: "InfoIcon",
@@ -100,20 +100,20 @@ export const links = [
       },
     ],
   },
-  {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
+  // {
+  //   label: "IFO",
+  //   icon: "IfoIcon",
+  //   items: [
+  //     {
+  //       label: "Next",
+  //       href: "/ifo",
+  //     },
+  //     {
+  //       label: "History",
+  //       href: "/ifo/history",
+  //     },
+  //   ],
+  // },
   {
     label: "More",
     icon: "MoreIcon",
@@ -155,11 +155,11 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/LydiaFinance",
   },
-  // {
-  //   label: "Discord",
-  //   icon: "DiscordIcon",
-  //   href: "https://discord.gg/qHjhz9Mz5b",
-  // },
+  {
+    label: "Discord",
+    icon: "TwitterIcon",
+    href: "https://discord.gg/6ygjnc9Q",
+  },
 ];
 
 export const MENU_HEIGHT = 64;

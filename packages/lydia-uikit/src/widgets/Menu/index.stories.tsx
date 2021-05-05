@@ -173,8 +173,8 @@ export const WithProfile: React.FC = () => {
         lydPriceUsd={0.23158668932877668}
         links={links}
         profile={{
-          username: "lydia",
-          image: "https://lydia.finance/images/nfts/blueberries-preview.png",
+          username: "lydiafinance",
+          image: "https://lydiafinance.finance/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}
@@ -227,8 +227,8 @@ export const WithSubmenuSelected: React.FC = () => {
         lydPriceUsd={0.23158668932877668}
         links={links}
         profile={{
-          username: "lydia",
-          image: "https://lydia.finance/images/nfts/blueberries-preview.png",
+          username: "lydiafinance",
+          image: "https://lydiafinance.finance/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}
