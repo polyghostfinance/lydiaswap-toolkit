@@ -29,7 +29,7 @@ export const styleVariants = {
   [variants.TEXTSUBTLE]: {
     backgroundColor: "textSubtle",
   },
-  [variants.BINANCE]: {
+  [variants.AVALANCHE]: {
     backgroundColor: "binance",
   },
   [variants.FAILURE]: {
