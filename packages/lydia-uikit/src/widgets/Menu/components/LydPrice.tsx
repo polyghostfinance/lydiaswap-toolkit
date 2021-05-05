@@ -27,7 +27,7 @@ const LydPrice: React.FC<Props> = ({ lydPriceUsd }) => {
       href="https://info.lydia.finance/tokens#/token/0x4c9b4e1ac6f24cde3660d5e4ef1ebf77c710c084"
       target="_blank"
     >
-      <LydiaRoundIcon width="30px" mr="8px" />
+      <LydiaRoundIcon width="35px" mr="8px" />
       {/* <img
         width={30}
         height={30}
