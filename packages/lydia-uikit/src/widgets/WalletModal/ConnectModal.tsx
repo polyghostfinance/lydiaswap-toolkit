@@ -30,7 +30,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
         mb={index < config.length - 1 ? "8px" : "0"}
       />
     ))}
-    <HelpLink href="https://docs.lydia.finance/guides/faq#how-do-i-set-up-my-wallet-on-avalanche" external>
+    <HelpLink href="https://docs.lydia.finance/guides/how-do-i-set-up-my-wallet-on-avalanche" external>
       <HelpIcon color="primary" mr="6px" />
       Learn how to connect
     </HelpLink>
