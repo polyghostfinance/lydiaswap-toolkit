@@ -1,6 +1,6 @@
 {
-  "name": "@lydiaswap/eslint-config-lydia",
-  "version": "1.0.3",
+  "name": "@lydiafinance/eslint-config-lydia",
+  "version": "1.0.0",
   "description": "Eslint config for LydiaFinance",
   "main": "lib/index.js",
   "files": [
@@ -8,7 +8,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lydiaswap/lydiaswap-toolkit/tree/master/packages/eslint-config-lydia"
+    "url": "https://github.com/lydiafinance/lydiafinance-toolkit/tree/master/packages/eslint-config-lydia"
   },
   "license": "MIT",
   "author": "RabbitDoge",

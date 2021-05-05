@@ -1,6 +1,6 @@
 {
-  "name": "lydiaswap-toolkit",
-  "version": "1.0.2",
+  "name": "lydiafinance-toolkit",
+  "version": "1.0.0",
   "description": "Lydia frontend packages",
   "private": true,
   "workspaces": [
@@ -8,13 +8,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lydiaswap/lydiaswap-toolkit.git"
+    "url": "git+https://github.com/lydiafinance/lydiafinance-toolkit.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lydiaswap/lydiaswap-toolkit/issues"
+    "url": "https://github.com/lydiafinance/lydiafinance-toolkit/issues"
   },
-  "homepage": "https://github.com/lydiaswap/lydiaswap-toolkit#readme",
+  "homepage": "https://github.com/lydiafinance/lydiafinance-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
@@ -28,7 +28,7 @@
     "@babel/preset-env": "^7.12.16",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@lydiaswap/eslint-config-lydia": "0.1.0",
+    "@lydiafinance/eslint-config-lydia": "1.0.0",
     "@rollup/plugin-typescript": "^8.2.0",
     "@rollup/plugin-url": "^6.0.0",
     "@storybook/addon-a11y": "^6.1.21",

@@ -1,5 +1,5 @@
 {
-  "extends": "@lydiaswap-libs/eslint-config-lydia",
+  "extends": "@lydiafinance/eslint-config-lydia",
   "rules": {
     "import/no-extraneous-dependencies": [
       "error",
