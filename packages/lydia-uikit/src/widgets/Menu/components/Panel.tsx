@@ -8,6 +8,7 @@ import { PanelProps, PushedProps } from "../types";
 interface Props extends PanelProps, PushedProps {
   showMenu: boolean;
   isMobile: boolean;
+  lydPriceUsd: any;
 }
 
 const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`

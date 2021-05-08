@@ -11,6 +11,7 @@ import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
 import { Image } from "../../components/Image";
 import { MENU_HEIGHT, SIDEBAR_WIDTH_REDUCED, SIDEBAR_WIDTH_FULL } from "./config";
+
 const Wrapper = styled.div`
   position: relative;
   width: 100%;
