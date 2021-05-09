@@ -25,7 +25,7 @@ const getBaseThumbStyles = ({ isMax, disabled }: StyledInputProps) => `
   -webkit-appearance: none;
   background-image: url(${isMax ? bunnyHeadMax : bunnyHeadMain});
   cursor: ${getCursorStyle};
-  width: 24px;
+  width: 32px;
   height: 32px;
   filter: ${disabled ? "grayscale(100%)" : "none"};
   transform: translate(-2px, -2px);
