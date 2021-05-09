@@ -40,13 +40,14 @@ export const lightColors: Colors = {
   card: "#FFFFFF",
   alwaysWhite: "#fff",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #e60c41 0%, #ffef98 100%)",
-    cardHeader: "linear-gradient(166.77deg, #e60c41 0%, #ffef98 100%)",
+    bubblegum: "linear-gradient(139.73deg, #f9dae2 0%, #fff9da 100%)",
+    cardHeader: "linear-gradient(139.73deg, #f9dae2 0%, #fff9da 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #E60C41 0%, #E60C41 100%)",
   },
 };
+// cardHeader: "linear-gradient(166.77deg, #e60c41 0%, #ffef98 100%)",
 // bubblegum: "linear-gradient(139.73deg, #d4008f00 0%, #d4008f4a 100%)",
 export const darkColors: Colors = {
   ...baseColors,
@@ -67,8 +68,8 @@ export const darkColors: Colors = {
   card: "#17223E",
   alwaysWhite: "#fff8d2",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #e60c41 0%, #3a3045 100%)",
-    cardHeader: "linear-gradient(166.77deg, #e60c41 0%, #3a3045 100%)",
+    bubblegum: "linear-gradient(139.73deg, #d4008f00 0%, #d4008f4a 100%)",
+    cardHeader: "linear-gradient(139.73deg, #d4008f00 0%, #d4008f4a 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
     violet: "linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)",
     violetAlt: "linear-gradient(180deg, #434575 0%, #66578D 100%)",
