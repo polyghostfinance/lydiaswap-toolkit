@@ -37,6 +37,7 @@ export const lightColors: Colors = {
   textSubtle: "#E60C41",
   // #da9ead
   borderColor: "#E9EAEB",
+  button: "#F9D92E",
   card: "#FFFFFF",
   alwaysWhite: "#fff",
   gradients: {
@@ -60,6 +61,7 @@ export const darkColors: Colors = {
   input: "#483f5a",
   inputSecondary: "#66578D",
   primaryDark: "#4a4de7",
+  button: "#a0e4f1",
   tertiary: "#353547",
   text: "#fff8d2",
   textDisabled: "#666171",

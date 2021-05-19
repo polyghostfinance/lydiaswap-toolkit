@@ -153,7 +153,7 @@ const PanelFooter: React.FC<Props> = ({
               Telegram
             </Text>
           </a>
-          <a href="http://discord.gg/6ygjnc9Q">
+          <a href="http://discord.gg/5sBmmVFSqk">
             <Text small color="textSubtle">
               Discord
             </Text>
