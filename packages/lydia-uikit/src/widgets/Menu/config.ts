@@ -57,8 +57,8 @@ export const links = [
   //   href: "/nft",
   // },
   {
-    label: "Maximus",
-    icon: "CrownIcon",
+    label: "Audit",
+    icon: "ShieldIcon",
     href: "/competition",
     status: status.SOON,
   },
@@ -78,6 +78,12 @@ export const links = [
   //   ],
   //   calloutClass: "rainbow",
   // },
+  {
+    label: "Maximus",
+    icon: "CrownIcon",
+    href: "/competition",
+    status: status.SOON,
+  },
   {
     label: "Info",
     icon: "InfoIcon",

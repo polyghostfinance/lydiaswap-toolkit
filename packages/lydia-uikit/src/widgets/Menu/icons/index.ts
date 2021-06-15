@@ -19,3 +19,6 @@ export { default as TicketIcon } from "./Ticket";
 export { default as TradeIcon } from "./Trade";
 export { default as TwitterIcon } from "./Twitter";
 export { default as CrownIcon } from "./Crown";
+export { default as ShieldIcon } from "./Shield";
+export { default as FeatureIcon } from "./Feature";
+export { default as ListingIcon } from "./Listing";
