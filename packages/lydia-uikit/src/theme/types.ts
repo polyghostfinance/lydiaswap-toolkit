@@ -65,7 +65,7 @@ export type Colors = {
   gradients: Gradients;
 
   // Brand colors
-  avalanche: string;
+  polygon: string;
 };
 
 export type ZIndices = {

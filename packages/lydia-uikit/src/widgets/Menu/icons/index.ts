@@ -22,3 +22,6 @@ export { default as CrownIcon } from "./Crown";
 export { default as ShieldIcon } from "./Shield";
 export { default as FeatureIcon } from "./Feature";
 export { default as ListingIcon } from "./Listing";
+export { default as GhostIcon } from "./Ghost";
+export { default as PumpkinIcon } from "./Pumpkin";
+export { default as WitchIcon } from "./Witch";

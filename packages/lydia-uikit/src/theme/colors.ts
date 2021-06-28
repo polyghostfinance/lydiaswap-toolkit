@@ -8,24 +8,24 @@ import { Colors } from "./types";
 // Dark blue #2F1B6D
 
 export const baseColors = {
-  failure: "#E60C41",
-  primary: "#F9D92E",
-  primaryBright: "#15B0F8",
-  primaryDark: "#0098A1",
-  secondary: "#E60C41",
+  failure: "#ED4B9E",
+  primary: "#E16428",
+  primaryBright: "#E16428",
+  primaryDark: "#E16428",
+  secondary: "#FFFFFF",
   success: "#31D0AA",
   warning: "#FFB237",
 };
 
 export const brandColors = {
-  avalanche: "#e84142",
+  polygon: "#2F1B6D",
 };
 
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#E60C41",
-  background: "#FAF9FA",
+  secondary: "#363333",
+  background: "#FFFFFF",
   backgroundDisabled: "#E9EAEB",
   cardBorder: "#E7E3EB",
   contrast: "#191326",
@@ -35,9 +35,9 @@ export const lightColors: Colors = {
   input: "#eeeaf4",
   inputSecondary: "#d7caec",
   tertiary: "#EFF4F5",
-  text: "#6b041d",
+  text: "#272121",
   textDisabled: "#BDC2C4",
-  textSubtle: "#E60C41",
+  textSubtle: "#363333",
   // #da9ead
   borderColor: "#E9EAEB",
   button: "#F9D92E",
@@ -57,7 +57,7 @@ export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
   secondary: "#E60C41",
-  background: "#1B1B2F",
+  background: "#272121",
   backgroundDisabled: "#3c3742",
   cardBorder: "#383241",
   contrast: "#FFFFFF",
@@ -69,12 +69,12 @@ export const darkColors: Colors = {
   primaryDark: "#4a4de7",
   button: "#a0e4f1",
   tertiary: "#353547",
-  text: "#fff8d2",
+  text: "#FFFFFF",
   textDisabled: "#666171",
-  textSubtle: "#a0e4f1",
+  textSubtle: "#FFFFFF",
   borderColor: "#524B63",
-  card: "#17223E",
-  alwaysWhite: "#fff8d2",
+  card: "#27262c",
+  alwaysWhite: "#FFFFFF",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #d4008f4a 0%, #d4008f00 100%)",
     cardHeader: "linear-gradient(139.73deg, #d4008f4a 0%, #d4008f00 100%)",
