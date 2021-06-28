@@ -148,24 +148,24 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/LydiaFinance",
+    href: "https://t.me/PolyGhostFinance",
     // items: [
     //   {
     //     label: "English",
-    //     href: "https://t.me/LydiaFinance",
+    //     href: "https://t.me/PolyGhostFinance",
     //   },
     // ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/LydiaFinance",
+    href: "https://twitter.com/PolyGhostFinance",
   },
-  {
-    label: "Discord",
-    icon: "TwitterIcon",
-    href: "https://discord.gg/5sBmmVFSqk",
-  },
+  // {
+  //   label: "Discord",
+  //   icon: "TwitterIcon",
+  //   href: "https://discord.gg/5sBmmVFSqk",
+  // },
 ];
 
 export const MENU_HEIGHT = 64;
