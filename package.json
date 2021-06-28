@@ -1,20 +1,20 @@
 {
-  "name": "lydiafinance-toolkit",
+  "name": "polyghost-toolkit",
   "version": "1.0.0",
-  "description": "Lydia frontend packages",
+  "description": "PolyGhost Finance frontend packages",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lydiafinance/lydiafinance-toolkit.git"
+    "url": "git+https://github.com/polyghostfinance/polyghost-toolkit.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lydiafinance/lydiafinance-toolkit/issues"
+    "url": "https://github.com/polyghostfinance/polyghost-toolkit/issues"
   },
-  "homepage": "https://github.com/lydiafinance/lydiafinance-toolkit#readme",
+  "homepage": "https://github.com/polyghostfinance/polyghost-toolkit#readme",
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",

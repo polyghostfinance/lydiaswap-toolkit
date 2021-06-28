@@ -1,14 +1,14 @@
 {
-  "name": "@lydiafinance/uikit",
+  "name": "@polyghostfinance/uikit",
   "version": "1.3.3",
-  "description": "Set of UI components for lydia projects",
+  "description": "Set of UI components for PolyGhost Finance projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/lydiafinance/lydia-toolkit/tree/master/packages/lydia-uikit",
+  "repository": "https://github.com/polyghostfinance/polyghost-toolkit/tree/master/packages/lydia-uikit",
   "license": "MIT",
   "scripts": {
     "start": "yarn storybook",
