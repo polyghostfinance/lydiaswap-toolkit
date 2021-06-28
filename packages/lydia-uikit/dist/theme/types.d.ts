@@ -55,7 +55,7 @@ export declare type Colors = {
     alwaysWhite: string;
     button: string;
     gradients: Gradients;
-    avalanche: string;
+    polygon: string;
 };
 export declare type ZIndices = {
     dropdown: number;

@@ -9,7 +9,7 @@ export declare const baseColors: {
     warning: string;
 };
 export declare const brandColors: {
-    avalanche: string;
+    polygon: string;
 };
 export declare const lightColors: Colors;
 export declare const darkColors: Colors;
