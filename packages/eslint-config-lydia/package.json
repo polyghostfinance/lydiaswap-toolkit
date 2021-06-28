@@ -1,6 +1,6 @@
 {
   "name": "@lydiafinance/eslint-config-lydia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for LydiaFinance",
   "main": "lib/index.js",
   "files": [
