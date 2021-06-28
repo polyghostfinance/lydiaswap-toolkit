@@ -1,1 +1,1 @@
-# 🦁 Lydia Toolkit
+# PolyGhost Finance Toolkit 👻
